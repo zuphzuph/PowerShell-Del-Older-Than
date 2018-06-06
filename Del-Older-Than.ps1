@@ -1,5 +1,5 @@
 ﻿$Path = "Path to delete from here."
-$DaysBack = "-5" 
+$DaysBack = "-X" 
 $CurrentDate = Get-Date
 $DatetoDelete = $CurrentDate.AddDays($DaysBack)
 Get-ChildItem -Path $Path -Include *.* -Recurse -Exclude web.config,.htaccess |` 
